@@ -1,0 +1,7 @@
+5;0;Diamonds
+12;1;Clubs
+8;1;Diamonds
+5;1;Diamonds
+5;1;Spades
+6;1;Diamonds
+5;0;Diamonds

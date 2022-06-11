@@ -1,0 +1,7 @@
+1;0;Hearts
+11;1;Hearts
+8;1;Diamonds
+11;1;Clubs
+9;1;Hearts
+6;1;Hearts
+3;0;Hearts
