@@ -14,8 +14,9 @@ namespace CardsPoker.code
         {
             return name;
         }
-        public void set_card(Card c)
+        public void set_card(Card c, int owner)
         {
+            c.set_owner(owner);
             hand.Add(c);
         }
         public List<Card> get_hand ()

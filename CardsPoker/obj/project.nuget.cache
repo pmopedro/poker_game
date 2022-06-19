@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EjgaYQJCJHubzk4FiRXpjv2tSqwz9GC15Rz+RS0ZrYMp+c5iAlPqhnpaZdgD6Qmv8SUlQ0myR6yUmff5SFVT1w==",
+  "dgSpecHash": "cCjsClzLKWSzbgtwqXm/hwXF6PE8Sa4pTEbU/jrAn6MHYxlNx5op3dBvd+iCehwKizznK2KvWHk16HnTJDA4Ew==",
   "success": true,
-  "projectFilePath": "/home/pedro/projects/programa-tico/CardsPoker/CardsPoker.csproj",
+  "projectFilePath": "/home/pedro/projects/programa-tico/poker_game/CardsPoker/CardsPoker.csproj",
   "expectedPackageFiles": [
     "/home/pedro/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.2/microsoft.aspnetcore.app.ref.6.0.2.nupkg.sha512"
   ],

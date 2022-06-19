@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pedro/projects/programa-tico/CardsPoker/CardsPoker.csproj",
+      "projectUniqueName": "/home/pedro/projects/programa-tico/poker_game/CardsPoker/CardsPoker.csproj",
       "projectName": "CardsPoker",
-      "projectPath": "/home/pedro/projects/programa-tico/CardsPoker/CardsPoker.csproj",
+      "projectPath": "/home/pedro/projects/programa-tico/poker_game/CardsPoker/CardsPoker.csproj",
       "packagesPath": "/home/pedro/.nuget/packages/",
-      "outputPath": "/home/pedro/projects/programa-tico/CardsPoker/obj/",
+      "outputPath": "/home/pedro/projects/programa-tico/poker_game/CardsPoker/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/pedro/.nuget/NuGet/NuGet.Config"

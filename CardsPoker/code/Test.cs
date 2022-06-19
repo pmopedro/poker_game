@@ -32,6 +32,10 @@ namespace CardsPoker.code
             card_list = Load.load_hand();
         }
 
+        public void load_dealer_cards(List<Card> cardsList, List<Card> dealerList){
+            card_list = cardsList.Concat(dealerList).ToList();;
+        }
+
         public void build_histogram()
         {
             histo = new Histogram(get_cards());
@@ -50,47 +54,60 @@ namespace CardsPoker.code
             royal = new RoyalFlush(histo.get_histogram());
         }
 
-        public void test_rank()
+        public int test_rank()
         {
             if (royal.check()) // Royal flush
             {
                 Console.WriteLine("Royal Flush");
-                //not implemented yet
+                return 1;
             }
             else if (straight.check()) // Straight flush
             {
                 Console.WriteLine("Straight Flush");
-                //not implemented yet
+                return 2;//not implemented yet
+            }
+            else if (four.check()) // Full house
+            {
+                Console.WriteLine("Full House");
+                return 3;
             }
             else if (full.check()) // Full house
             {
                 Console.WriteLine("Full House");
-                //not implemented yet
+                return 4;
             }
             else if (flush.check()) // Flush
             {
                 Console.WriteLine("Flush");
-                //not implemented yet
+                return 5; //not implemented yet
             }
             else if (straight.check()) // Straight
             {
                 Console.WriteLine("Straight Flush");
-                //not implemented yet
+                return 6; //not implemented yet
+            }
+            else if (three.check()) // Two pair
+            {
+                Console.WriteLine("Two Pairs");
+                return 7;//not implemented yet
             }
             else if (two.check()) // Two pair
             {
                 Console.WriteLine("Two Pairs");
-                //not implemented yet
+                return 8;//not implemented yet
             }
             else if (pair.check()) // Pair
             {
                 Console.WriteLine("Pair");
-                //not implemented yet
+                return 9;//not implemented yet
             }
             else if (high.check()) // High card
             {
+
                 Console.WriteLine("High card");
+                return 10;
             }
+            return 11;
         }
     }
 }
