@@ -50,13 +50,12 @@ namespace CardsPoker.code
                         Person player2 = new Person("Piccolo");
                         Person mesa = new Person("Mesa");
 
-                        player1.set_card(dealer.get_card(), 1);
-                        player1.set_card(dealer.get_card(), 1);
+                        for (int i=0; i<2; i++){
+                            player1.set_card(dealer.get_card(), 1);
+                            player2.set_card(dealer.get_card(), 2);
+                        }
                         Console.WriteLine("Mão do Goku");
                         Show.show_cards(player1.get_hand());
-
-                        player2.set_card(dealer.get_card(), 2);
-                        player2.set_card(dealer.get_card(), 2);
                         Console.WriteLine("Mão do Piccolo");
                         Show.show_cards(player2.get_hand());
 
@@ -114,7 +113,6 @@ namespace CardsPoker.code
             while (true)
             {
                 Int32.TryParse(Console.ReadLine(), out opt);
-
                 if(opt >= 1 && opt <= 2)
                     break;
                 else
