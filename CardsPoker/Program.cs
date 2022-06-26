@@ -28,12 +28,12 @@ namespace CardsPoker.code
                     case 1:
                        
                         #region Test
-                        // Test test = new Test(); // new Test object
-                        // test.load_cards(); //load from file
-                        // Show.show_cards(test.get_cards()); //show a list of cards
+                        Test test = new Test(); // new Test object
+                        test.load_cards(); //load from file
+                        Show.show_cards(test.get_cards()); //show a list of cards
                         
-                        // test.build_histogram();
-                        // test.test_rank();
+                        test.build_histogram();
+                        test.test_rank();
 
                         #endregion
                         break;
@@ -69,19 +69,13 @@ namespace CardsPoker.code
                         Test test1 = new Test(); // new Test object
                         // test1.load_cards();
                         test1.load_dealer_cards(player1.get_hand(),mesa.get_hand()); //load from file
-                        // Show.show_cards(test1.get_cards()); //show a list of all cards
-                        // Console.WriteLine("Mostrei as cartas");
                         test1.build_histogram();
                         int rank1 = test1.test_rank();
-                        Console.WriteLine(rank1);
 
                         Test test2 = new Test(); // new Test object
                         test2.load_dealer_cards(player2.get_hand(),mesa.get_hand()); //load from file
-                        // Show.show_cards(test2.get_cards()); //show a list of all cards
-                        // Console.WriteLine("Mostrei as cartas");
                         test2.build_histogram();
                         int rank2 = test2.test_rank();
-                        Console.WriteLine(rank2);
 
                         Console.WriteLine("Terminei de testar o ranking!");
                         

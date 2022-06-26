@@ -18,8 +18,7 @@ namespace CardsPoker.code
         public Test()
         {
             card_list = new List<Card>();
-        
-           // histo = new Histogram();
+            // histo = new Histogram();
         }
 
         public List<Card> get_cards()

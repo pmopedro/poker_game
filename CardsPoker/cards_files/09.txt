@@ -1,4 +1,4 @@
-4;1;Hearts
+4;0;Hearts
 5;1;Spades
 8;1;Clubs
 12;1;Diamonds
